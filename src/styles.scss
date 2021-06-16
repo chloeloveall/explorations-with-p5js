@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+  margin: 0;
+  background-color: #4158D0;
+  background:
+  linear-gradient(45deg, hsla(277, 51%, 80%, 1) 0%, hsla(277, 51%, 80%, 0) 70%),
+  linear-gradient(135deg, hsla(278, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%),
+  linear-gradient(225deg, hsla(353, 54%, 74%, 1) 10%, hsla(353, 54%, 74%, 0) 80%),
+  linear-gradient(315deg, hsla(314, 32%, 62%, 1) 100%, hsla(314, 32%, 62%, 0) 70%);
+  background-position: fixed;
+  min-height: 100vh;
+  color: #000000;
+}
