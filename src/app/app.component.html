@@ -1,13 +1,12 @@
 <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
 <nav>
   <ul>
-    <li><a href="#">Explorations with p5.js</a></li>
-    <li style="float:right"><a routerLink="/sketch" routerLinkActive="active">Sketch</a></li>
-    <li style="float:right"><a routerLink="/asteroids" routerLinkActive="active">Asteroids</a></li>
+    <li><a routerLink="/home">Explorations with p5.js</a></li>
+    <li style="float:right"><a routerLink="/sketch">Sketch</a></li>
+    <li style="float:right"><a routerLink="/asteroids">Asteroids</a></li>
   </ul>
 </nav>
 
 <!-- The routed views render in the <router-outlet>-->
-<div class='wrapper'>
-  <router-outlet></router-outlet>
-</div>
+<div class='wrapper'></div>
+<router-outlet></router-outlet>
